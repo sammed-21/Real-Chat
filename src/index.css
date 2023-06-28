@@ -263,7 +263,16 @@ input[type="text"], input[type="password"], input[type="email"], textarea{
 /* //loader */
 .loader {
   display: flex;
+  width: 100%;
+  height: 100%;
+  place-items: center;
+  margin: calc();
+  justify-content: center;
   align-items: center;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .bar {
